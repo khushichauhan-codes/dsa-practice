@@ -1,0 +1,13 @@
+arr = [0, 1, 0, 3, 12, 0, 5]
+
+result = []
+
+for num in arr:
+    if num != 0:
+        result.append(num)
+
+while len(result) < len(arr):
+    result.append(0)
+
+print("Original Array:", arr)
+print("After Moving Zeros:", result)
